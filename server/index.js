@@ -13,7 +13,7 @@ app.use(bodyParser.json({ limit : "30mb", extended: true}));
 app.use(bodyParser.urlencoded({ limit : "30mb", extended: true}));
 app.use(cors());
 
-const CONNECTION_URL = 'mongodb+srv://Memories:Memories123@cluster1.4t2sfz0.mongodb.net/?appName=Cluster1';
+
 
 const PORT = process.env.PORT || 5000;
 
